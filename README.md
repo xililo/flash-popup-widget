@@ -13,7 +13,7 @@ composer require xililo/flash-popup-widget
 Import the FlashPopupWidget class at the top of your view file:
 
 ```php
-use xililo\flashpopupwidget\FlashPopupWidget;
+use xililo\Popups\FlashPopupWidget;
 ```
 Place the widget call in your view file or controller where you want to display the flashes and trigger the popups:
 
