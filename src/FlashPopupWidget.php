@@ -5,6 +5,7 @@ namespace xililo\Popups;
 use Yii;
 use yii\base\Widget;
 use yii\helpers\Html;
+use xililo\Popups\FlashPopupAssets;
 
 class FlashPopupWidget extends Widget
 {
@@ -26,6 +27,7 @@ class FlashPopupWidget extends Widget
         ]);
 
         $js = "$.popup($options);";
+        FlashPopupAssets::register($this->view);
         $this->view->registerJs($js);
     }
 }

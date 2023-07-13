@@ -1,6 +1,6 @@
 <?php
 
-namespace xililo\SearchableAjaxSelect;
+namespace xililo\Popups;
 
 use yii\web\AssetBundle;
 
