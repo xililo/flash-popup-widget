@@ -24,4 +24,4 @@ Place the widget call in your view file or controller where you want to display 
 ```php
   echo FlashPopupWidget::widget();
 ```
-This will render the FlashPopupWidget and display the session flashes as div elements with appropriate CSS classes. It will also trigger the popups based on the flash types.
+This will render the FlashPopupWidget popups based on the flash types.
