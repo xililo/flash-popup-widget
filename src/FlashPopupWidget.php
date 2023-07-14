@@ -27,6 +27,7 @@ class FlashPopupWidget extends Widget
         ]);
 
         $js = "$.popup($options);";
+        //register Assets
         FlashPopupAssets::register($this->view);
         $this->view->registerJs($js);
     }
