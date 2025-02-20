@@ -23,7 +23,7 @@ class FlashPopupWidget extends Widget
         $options = json_encode([
             'message' => $message,
             'duration' => 5000,
-            'type' => $type
+            'type' => ($type == 'error') ? 'danger' : $type,
         ]);
 
         $js = "$.popup($options);";
